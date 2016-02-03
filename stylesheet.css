@@ -4,6 +4,32 @@ li {
 
 }
 
-div { text-align: center; 
+div { text-align: center;
+      margin: auto; 
 
 } 
+
+.block { 
+	background-color: #cccccc;
+	border: 2px solid black;
+	width: 20%;
+    padding-bottom: 20%;
+    margin: 3%;
+    position:relative;
+    float:left;
+    overflow:hidden;
+
+    
+    }
+
+.content {
+    position:absolute;
+    width:300px;
+    height:300px;
+    display: inline-center;
+       
+    
+}
+ 
+ 
+
